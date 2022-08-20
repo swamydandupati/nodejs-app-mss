@@ -4,10 +4,10 @@
   "description": "This Project explains all Node JS examples",
   "main": "app.js",
   "publishConfig": {
-    "registry": "http://3.108.64.180:9980/mithuntechnologies/repository/nodejsrepo-mss/"
+    "registry": "http://44.203.90.128:9199/repository/nodejs-repo/"
   },
   "scripts": {
-    "server": "http-server -c-1 -p 9999",
+    "server": "http-server -c-1 -p 9199",
     "start1": "nodemon app.js",
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
